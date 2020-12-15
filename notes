@@ -1,0 +1,32 @@
+Git config
+#git config --globel user.name “nimisha”
+#git config --globel user.email “nimishanimi49@gmail.com” //double quotes not mandatory
+
+Create ne project 
+Open the directory where you wanna create project folder 
+Open terminal & Go to dir named myproject
+#git init // intalize git
+it create a .git file ,it may be hidden
+2.ls -a  : to see hidden file
+#tree .git // shows the folder structure
+Create a .html file for eg
+
+3.git status // print the file name 
+
+4.version ctreation-
+*git commit
+      commit done in cache 
+#git add a.html  //typing git status after that you can see the changes pacha colour file 
+#git add --all ->is used to commit all files
+ or
+git add .
+* if a single file then use "git add filename"
+#git commit -m "msg to display"
+              //  After modifying a.html filr chech git status  after that you should use add and commit msgs
+#git log -> to view the corresponding id
+#git log --all //show all id 
+unique id head is currently working committ version ,master point to the latest commit
+#git checkout “id”-> back to previouscommit  version
+#git checkout master   ->move to latest version
+
+
